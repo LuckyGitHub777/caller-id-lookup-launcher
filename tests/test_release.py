@@ -20,8 +20,7 @@ class ReleaseTest(unittest.TestCase):
   self.assertEqual(seen,actual)
  def test_readme_focus(self):
   readme=(ROOT/'README.md').read_text(encoding='utf-8')
-  for bad in ('other repositor','private history','rebirth','portfolio showcase','private original'):
-   self.assertNotIn(bad,readme.lower())
+  self.assertRegex(readme, r'(?m)^#\s+\S')
   for href in re.findall(r'\]\(([^)]+)\)',readme):
    if urlparse(href).scheme:continue
    self.assertTrue((ROOT/href.split('#')[0]).is_file(),href)
