@@ -8,4 +8,4 @@ Open [index.html](index.html) in a modern browser or use a local static server. 
 
 A phone-number association does not prove who placed a call. Numbers can be spoofed or reassigned. Do not use third-party lookup results for regulated eligibility decisions or to harass other people. Report issues using fictional numbers, never personal phone records.
 
-**Rights:** [LICENSE](LICENSE) retains the existing all-rights-reserved terms. Public reading does not grant redistribution or derivative-use rights. [MANIFEST.sha256](MANIFEST.sha256) lists exact source hashes.
+**Rights:** [LICENSE](LICENSE) states the all-rights-reserved terms. Public reading does not grant redistribution or derivative-use rights. [MANIFEST.sha256](MANIFEST.sha256) lists exact source hashes.
